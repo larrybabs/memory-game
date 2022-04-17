@@ -1,6 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import './App.css';
+// import HowTo from './components/HowTo';
 import SingleCard from './components/SingleCard';
 
 const cardImages = [
@@ -84,6 +85,7 @@ useEffect( () => {
         ))}
 
           <p>Turns: {turns}</p>
+          {/* <HowTo /> */}
       </div>
     </div>
   );
