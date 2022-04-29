@@ -72,6 +72,7 @@ useEffect( () => {
       <h1>Memory Game</h1>
       <button onClick={shuffleCards}>New game</button>
 
+      <p>Turns: {turns}</p>
       <div className="card-grid">
         {cards.map(card => (
           <SingleCard key={card.id} 
@@ -84,7 +85,7 @@ useEffect( () => {
          
         ))}
 
-          <p>Turns: {turns}</p>
+          
           {/* <HowTo /> */}
       </div>
     </div>
